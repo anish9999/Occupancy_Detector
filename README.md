@@ -10,6 +10,22 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 ![Capture1](https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png)
 
 
+![image](https://user-images.githubusercontent.com/85349550/218145257-a34020c5-161a-4371-bf34-34ed91d9ef54.png)
+
+
+## Dependencies
+
+To run this project, you will need to add the following Dependencies to your file
+
+`absl-py`
+`numpy`
+`seaborn`
+`opencv-python`
+`scipy`
+`tensorflow`
+`matplotlib`
+`lxml`
+`tqdm`
 
 ## Running Tests
 
@@ -60,3 +76,6 @@ Checking GPU
 import tensorflow as tf
 print(tf.test.is_gpu_available(cuda_only =False,min_cuda_capability= None))
 ```
+
+
+
