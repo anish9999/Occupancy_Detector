@@ -1,8 +1,6 @@
 # Occupany Tracker
 Capacity trackering in real time in a bus. It is able to track the number of users with in a accumulated place.
 
-https://github.com/anish9999/Occupancy_Tracker/blob/master/Single-Multiple-Custom-Object-Detection-and-Tracking/data/gif/output_6.gif
-
 ![Alt](https://s9.gifyu.com/images/output_6.gif)
 
 ## Screenshots
