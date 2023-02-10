@@ -4,7 +4,6 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 
 
 
-https://user-images.githubusercontent.com/85349550/218065352-66f62e82-e375-405a-9390-1da91df6ef28.mp4
 
 
 ## Screenshots
