@@ -33,6 +33,7 @@ For more optimize result , I considered yolov3 algorithm for training of data an
 - python version: 3.7.9
 - cuda version: 3.10v
 - cudnn version: 3.7.6 for cuda version 3.10v
+- GPU driver needed to get install for precision and accuracy
 
 
 ## Installations
