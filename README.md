@@ -57,6 +57,9 @@ print(tf.test.is_gpu_available(cuda_only =False,min_cuda_capability= None))
 
 
 ![Capture1](https://raw.githubusercontent.com/anish9999/Occupancy_Tracker/master/Screenshot/Capture3.png?token=GHSAT0AAAAAAB4OQPJHBMGVWXNPIGGY6AGQY7GCVPQ)
+
 ![Capture2](https://raw.githubusercontent.com/anish9999/Occupancy_Tracker/master/Screenshot/Capture1.PNG?token=GHSAT0AAAAAAB4OQPJGSO5LTPNCTG5Q4USCY7GCXGQ)
+
 ![Capture3](https://raw.githubusercontent.com/anish9999/Occupancy_Tracker/master/Screenshot/Capture2.png?token=GHSAT0AAAAAAB4OQPJGYBMAQ37ELOVG3BQKY7GCUMA)
+
 
