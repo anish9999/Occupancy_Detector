@@ -1,7 +1,7 @@
 # Occupany Tracker
 Capacity trackering in real time in a bus. It is able to track the number of users with in a accumulated place.
 
-![Alt](https://s9.gifyu.com/images/output_6.gif)
+
 
 ## Screenshots
 
@@ -9,6 +9,7 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 ![Capture2](https://user-images.githubusercontent.com/85349550/218063702-21bdde59-41a7-465d-86fd-750c016d718d.png)
 ![Capture1](https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png)
 
+![output_6](https://s9.gifyu.com/images/output_6.gif)
 
 ## Dependencies
 
