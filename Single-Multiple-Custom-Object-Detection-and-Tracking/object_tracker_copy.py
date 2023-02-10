@@ -36,12 +36,13 @@ class_names = [c.strip() for c in open('./data/labels/coco.names').readlines()]
 # print(c.strip() for c in open('./data/labels/coco_copy.names').readlines())
 yolo = YoloV3(classes=len(class_names))
 yolo.load_weights('./weights/yolov3.tf')
-
 max_cosine_distance = 0.5
 nn_budget = None
 nms_max_overlap = 0.8
 trackableObjects = {}
 trackers = []
+W = None
+H = None
 
 
 # initialize the total number of frames processed thus far, along
@@ -71,9 +72,9 @@ vid = cv2.VideoCapture('.//data/video/example_01.mp4')
 codec = cv2.VideoWriter_fourcc(*'XVID')
 vid_fps = 4
 vid_fps =int(vid.get(cv2.CAP_PROP_FPS))
-vid_width,vid_height = int(vid.get(cv2.CAP_PROP_FRAME_WIDTH)), int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT))
-vid_width, vid_height = 500, 500
-out = cv2.VideoWriter('./data/video/replica.avi', codec, vid_fps, (vid_width, vid_height))
+# vid_width,vid_height = int(vid.get(cv2.CAP_PROP_FRAME_WIDTH)), int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT))
+vid_width,vid_height = 500, 600
+out = cv2.VideoWriter('./data/video/output_6.avi', codec, vid_fps, (vid_width, vid_height))
 
 from collections import deque
 pts = [deque(maxlen=30) for _ in range(1000)]
@@ -87,8 +88,10 @@ ct = CentroidTracker(maxDisappeared=40, maxDistance=50)
 
 while True:
     _,img = vid.read()
-    img = imutils.resize(img, width = 500)
-    (H, W) = img.shape[:2]
+    # img = imutils.resize(img, width = 500)
+    
+    if W is None or H is None:
+        (H, W) = img.shape[:2]
     if img is None:
         print('Completed')
         break
@@ -201,7 +204,7 @@ while True:
                             to.counted = True      
             else:
                 to = TrackableObject(objectID, centroid)
-                print(to.centroids)
+                # print(to.centroids)
                 a = a + (to.centroids)
         
         
@@ -216,7 +219,7 @@ while True:
             for (objectID, centroid) in y.items():
                 b = centroid
         r = b[1]
-        print(r)
+        # print(r)
         
         center_y = int(((bbox[1])+(bbox[3]))/2)
         # print(center_y)
@@ -247,7 +250,7 @@ while True:
             
     for (i, (k, v)) in enumerate(info2):
         text = "{}: {}".format(k, v)
-        cv2.putText(img, text, (265, H - ((i * 20) + 60)), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
+        cv2.putText(img, text, ((W - 250), H - ((i * 10) + 70)), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
 
         
@@ -261,8 +264,8 @@ while True:
     
     inside_count.append(set(Inside_Counter))
     outside_count.append(set(Outside_Counter))
-    print(inside_count)
-    print(outside_count)
+    # print(inside_count)
+    # print(outside_count)
     # Max_Inside_count.append()
     cv2.putText(img, "Total People Count: " + str(total_count), (0,40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,0), 2)
         # draw a horizontal line in the center of the frame -- once an
@@ -282,7 +285,7 @@ while True:
     cv2.putText(img, "FPS: {:.2f}".format(fps), (0,20),cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,0), 2)
     
     cv2.imshow('output', img)
-    # cv2.resizeWindow('output', 1024, 768)
+    # cv2.resizeWindow('output', 600, 600)
     out.write(img)
 
     if cv2.waitKey(1) == ord('q'):
