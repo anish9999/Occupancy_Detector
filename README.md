@@ -2,7 +2,7 @@
 Capacity trackering in real time in a bus. It is able to track the number of users with in a accumulated place.
 
 # DEMO
-Click [here](https://s9.gifyu.com/images/output_6.gif) to watch demo
+Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
 
 ## Screenshots
 
