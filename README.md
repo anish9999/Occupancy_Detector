@@ -35,7 +35,7 @@ For more optimize result , I considered yolov3 algorithm for training of data an
 - cudnn version: 3.7.6 for cuda version 3.10v
 
 
-## Installation
+## Installations
 Save them to their weights folder
 
 ```bash
