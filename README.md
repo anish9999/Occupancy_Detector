@@ -4,9 +4,10 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 # Demo
 Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
 
-## Screenshots
+## Main Concepts
 ![opencv(One project to another project diagram) drawio (5)](https://user-images.githubusercontent.com/85349550/219443098-57931f73-c5bf-4db9-8f81-0e4d7d08c4e9.png)
 
+## Screenshots
 ![Capture3](https://user-images.githubusercontent.com/85349550/218063737-54e590d8-2748-4b8c-a15f-28d6520810e2.png)
 ![Capture2](https://user-images.githubusercontent.com/85349550/218063702-21bdde59-41a7-465d-86fd-750c016d718d.png)
 ![Capture1](https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png)
