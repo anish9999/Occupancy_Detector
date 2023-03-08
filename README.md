@@ -83,6 +83,7 @@ print(tf.test.is_gpu_available(cuda_only =False,min_cuda_capability= None))
 ![image](https://user-images.githubusercontent.com/85349550/223794918-c5ad3a9b-f820-4a55-a564-2d9027a6e6a6.png)
 ![image](https://user-images.githubusercontent.com/85349550/223794966-c0b2768c-96dc-4b70-b310-20b75bdf7790.png)
 ![image](https://user-images.githubusercontent.com/85349550/223795064-be2bcdb5-613b-44b7-98e9-698db784763a.png)
+![image](https://user-images.githubusercontent.com/85349550/223795277-9150a2bc-e800-499f-95f2-85fb6453eefa.png)
 
 
 
