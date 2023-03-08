@@ -11,7 +11,7 @@ Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
 ![Capture3](https://user-images.githubusercontent.com/85349550/218063737-54e590d8-2748-4b8c-a15f-28d6520810e2.png)
 ![Capture2](https://user-images.githubusercontent.com/85349550/218063702-21bdde59-41a7-465d-86fd-750c016d718d.png)
 ![Capture1](https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png)
-![image](https://user-images.githubusercontent.com/85349550/223795168-63ab02ed-f9a1-4d33-a3b7-7eb8aceb8e3a.png)
+
 
 
 
@@ -83,6 +83,7 @@ print(tf.test.is_gpu_available(cuda_only =False,min_cuda_capability= None))
 ![image](https://user-images.githubusercontent.com/85349550/223794918-c5ad3a9b-f820-4a55-a564-2d9027a6e6a6.png)
 ![image](https://user-images.githubusercontent.com/85349550/223794966-c0b2768c-96dc-4b70-b310-20b75bdf7790.png)
 ![image](https://user-images.githubusercontent.com/85349550/223795064-be2bcdb5-613b-44b7-98e9-698db784763a.png)
+![image](https://user-images.githubusercontent.com/85349550/223795168-63ab02ed-f9a1-4d33-a3b7-7eb8aceb8e3a.png)
 ![image](https://user-images.githubusercontent.com/85349550/223795277-9150a2bc-e800-499f-95f2-85fb6453eefa.png)
 ![image](https://user-images.githubusercontent.com/85349550/223795390-81dddc26-20de-4f6d-b980-822db2408767.png)
 ![image](https://user-images.githubusercontent.com/85349550/223795509-9d540114-ad53-44ab-b478-60464b35068d.png)
