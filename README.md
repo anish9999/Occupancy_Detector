@@ -78,6 +78,11 @@ Checking GPU
 import tensorflow as tf
 print(tf.test.is_gpu_available(cuda_only =False,min_cuda_capability= None))
 ```
+![image](https://user-images.githubusercontent.com/85349550/223794918-c5ad3a9b-f820-4a55-a564-2d9027a6e6a6.png)
+![image](https://user-images.githubusercontent.com/85349550/223794966-c0b2768c-96dc-4b70-b310-20b75bdf7790.png)
+
+
+
 
 
 
