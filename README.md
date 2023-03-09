@@ -3,8 +3,7 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 
 ## How Yolov3 works
 <img src="https://user-images.githubusercontent.com/85349550/223982012-d9fb3a12-1fd7-48df-b841-36c6d72294e1.gif" width="250" height="250"/>
-<img src="https://user-images.githubusercontent.com/85349550/223982012-d9fb3a12-1fd7-48df-b841-36c6d72294e1.gif" width="250" height="250"/>
-
+<img src="https://github.com/anish9999/Occupancy_Tracker/blob/master/output_6.gif" width="250" height="250"/>
 
 # Demo
 Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
