@@ -5,8 +5,9 @@ Capacity trackering in real time in a bus. It is able to track the number of use
 <img  align ="left" src="https://user-images.githubusercontent.com/85349550/223982012-d9fb3a12-1fd7-48df-b841-36c6d72294e1.gif" width="400" height="450"/>
 <img align ="center" src="https://github.com/anish9999/Occupancy_Tracker/blob/master/output_6.gif" width="400" height="450"/>
 
-# Demo
-Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
+# System Flow
+![Openvc(PeopleCount)Sequence Diagram drawio (5)](https://user-images.githubusercontent.com/85349550/226170768-2ac0e073-ca47-4c73-8e81-10eeb19897ad.svg)
+
 
 ## Main Concepts
 ![opencv(One project to another project diagram) drawio (5)](https://user-images.githubusercontent.com/85349550/219443098-57931f73-c5bf-4db9-8f81-0e4d7d08c4e9.png)
@@ -16,12 +17,6 @@ Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
 <img  align ="left" src="https://user-images.githubusercontent.com/85349550/218063737-54e590d8-2748-4b8c-a15f-28d6520810e2.png" width="400" height="450"/>
 <img align ="center" src="https://user-images.githubusercontent.com/85349550/218063702-21bdde59-41a7-465d-86fd-750c016d718d.png" width="400" height="450"/>
 <img align ="center" src="https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png" width="400" height="450"/>
-
-## System Flow
-
-<img  align ="left" src="https://user-images.githubusercontent.com/85349550/226169617-ae5cba13-0e18-4fdd-ac25-9769704e11c4.png" width="200" height="200"/>
-<img align ="left" src="https://user-images.githubusercontent.com/85349550/226169731-0f94340d-6747-41cf-b843-c58ae8ff4bae.svg" width="500" height="650"/>
-
 
 
 ## Dependencies
