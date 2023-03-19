@@ -18,7 +18,9 @@ Click [Here](https://s9.gifyu.com/images/output_6.gif) to watch demo
 <img align ="center" src="https://user-images.githubusercontent.com/85349550/218063633-d90f7310-2129-49bf-8f17-1fd9829ff705.png" width="400" height="450"/>
 
 ## System Flow
-![Openvc(PeopleCount)Sequence Diagram drawio](https://user-images.githubusercontent.com/85349550/226169617-ae5cba13-0e18-4fdd-ac25-9769704e11c4.png)
+
+<img  align ="left" src="https://user-images.githubusercontent.com/85349550/226169617-ae5cba13-0e18-4fdd-ac25-9769704e11c4.png" width="200" height="200"/>
+<img align ="center" src="https://user-images.githubusercontent.com/85349550/226169731-0f94340d-6747-41cf-b843-c58ae8ff4bae.svg" width="300" height="350"/>
 
 
 
